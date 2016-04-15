@@ -10,9 +10,8 @@ it can be used to simulate practically any stable queue system.
 ### Contact
 -------
 
-Github : <https://github.com/yilmazserhan/queuesimulator>
-
-E-mail : yilmazserhan@yahoo.com
+Github : <https://github.com/yilmazserhan/queuesimulator> <br />
+E-mail : yilmazserhan@yahoo.com <br />
 
 You are more than welcome to share your comments, suggestions, 
 and bugs that you may have encountered via the given e-mail address.
