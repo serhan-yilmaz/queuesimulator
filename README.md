@@ -40,7 +40,7 @@ Transmission rate - contant transmission rate per server in bps
 Queue buffer size - maximum queue size in bits
 
 2 - Specify "Packet Arrival Time Distribution" and "Packet Size Distribution" fields.
-You can find more information about distributions in the DISTRIBUTION_INFO.txt file.
+You can find more information about distributions in the DISTRIBUTION_INFO.md file.
 
 3 - Select the termination method of simulation;
 In terms of input package number
