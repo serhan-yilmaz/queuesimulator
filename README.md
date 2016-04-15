@@ -1,4 +1,4 @@
-# QueueSimulator v1.05 Copyright (C) 2016 Serhan Yılmaz
+## QueueSimulator v1.05 Copyright (C) 2016 Serhan Yılmaz
 
 ### About
 -----
