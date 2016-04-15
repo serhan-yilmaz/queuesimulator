@@ -1,0 +1,81 @@
+QueueSimulator v1.05 Distribution Information
+
+What is Distribution?
+---------------------
+
+The distribution term used in QueueSimulator refers to the random number generators
+whose characteristics are given by the PDF of the said distribution function.
+
+Distribution Categories
+-----------------------
+
+There are currently two distribution categories available:
+1 - Basic Distribution
+Distributions that are commonly used in probability theory.
+Currently five of them are available :
+Exponential
+Gaussian
+Uniform
+Deterministic
+Geometric
+
+2 - Combined Distribution
+Distributions that are created by using two other distributions.
+Currently three of them are available :
+Sum of distribution random numbers
+Multiplication of distribution random numbers
+Sum of distributions which is effectively acquired by ORing the random numbers.
+
+Distribution Parameters
+-----------------------
+
+There are some parameters that are common to all distribution types. These are :
+Minimum clipping and Minimum clipping enable
+Maximum clipping and Maximum clipping enable
+
+Clipping
+-------
+
+The clipping term used here refers to Hard-Clipping which is applied AFTER the
+random number is generated.
+
+Example :
+Gaussian Distribution with 0 mean and 1 standard deviation
+Minimum clip = 0 , enabled
+Maximum clip disabled
+
+Right after random numbers which are gaussian are generated, they are set to 0 if they are smaller than 0.
+if number randomed into -2 it will be set to 0.
+if number randomed into 1 it will not be affected.
+
+This process shifts the probability densities of numbers that are smaller than minimum clip onto the minimum clip.
+Similar process is valid for maximum clip as well.
+
+Specific Parameters
+-------------------
+
+Each distribution includes a set of distinct parameters required
+for generating random numbers from that distribution.
+
+Exponential Distribution -> Rate
+Gaussian Distribution -> Mean, Standard Deviation
+Uniform Distribution -> Minimum, Maximum
+Deterministic -> Value
+Geometric -> Probability between 0 and 1, Scale
+The scale field in geometric distribution basically multiplies the
+generated random number with the specified amount.
+
+ORred Distribution -> Probability of selecting Distribution B over A
+
+Apart from these each combined distribution requires exactly two distributions as parameters.
+
+Distribution Utilities
+----------------------
+
+There are some methods included in the program to help 
+visualize the generated distributions which are :
+Basic Formula
+Histogram
+Central Moments - Mean, Standard Deviation, Skewness, Kurtosis
+L-Moments - Mean, L-Scale, L-Skewness, L-Kurtosis
+
