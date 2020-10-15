@@ -7,7 +7,7 @@ QueueSimulator is a free software which aims to simulate primarily
 G/G/k queueing systems that are used in computer networks. But
 it can be used to simulate practically any stable queue system.
 
-<img src="images/sample_1.png" width="300"> <img src="images/sample_2.png" width="395">
+<img src="images/sample_1.png" width="300"> <img src="images/sample_2.png" width="390">
 
 ### Contact
 -------
