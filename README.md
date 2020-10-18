@@ -47,6 +47,8 @@ Queue buffer size - maximum queue size in bits
 2 - Specify "Packet Arrival Time Distribution" and "Packet Size Distribution" fields.
 You can find more information about distributions in the DISTRIBUTION_INFO.md file.
 
+<img src="images/sample_4.png" width="300"> <img src="images/sample_3.png" width="390">
+
 3 - Select the termination method of simulation;
 In terms of input package number
 In terms of simulation clock
@@ -59,7 +61,6 @@ Necessary for isolating the stable state data.
 
 5 - Press simulate and observe results.
 
-<img src="images/sample_4.png" width="300"> <img src="images/sample_3.png" width="390">
 
 ### License Information
 -------------------
